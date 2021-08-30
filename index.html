@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Photo Gallery -写真館-</title>
+</head>
+<body class="bg-light text-dark">
+    <div class="container">
+        <header>
+            <!-- logo -->
+            <!-- <img src="" alt=""> -->
+        </header>
+        <div class="jumbotron">
+            <h1 class="display-2">写真館 -Photo Gallery-</h1>
+            <p>このサイトは、私が撮影した写真を掲載するポートフォリオサイトです。</p>
+            <p>ジャンルごとに掲載していますので、気になる写真がありましたら、ぜひご覧ください。</p>
+        </div>
+        <main>
+            <section>
+                <h1>写真</h1>
+                <p>ジャンル分けされた写真を掲載しています。タブをクリック（タップ）して選んでください。</p>
+            </section>
+            <section>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a href="#life" class="nav-link active" data-toggle="tab">Life</a></li>
+                    <li class="nav-item"><a href="#food" class="nav-link" data-toggle="tab">Food</a></li>
+                    <li class="nav-item"><a href="#animal" class="nav-link" data-toggle="tab">Animal</a></li>
+                    <li class="nav-item"><a href="#view" class="nav-link" data-toggle="tab">View</a></li>
+                    <li class="nav-item"><a href="#event" class="nav-link" data-toggle="tab">Event</a></li>
+                </ul>
+                <div class="tab-content py-5">
+                    <div class="tab-pane fade show active" id="life">
+                        <div>
+                            <div class="d-flex">
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/tools.JPG"><img src="img/tools.JPG" alt="仕事道具一式" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">仕事道具一式</h5>
+                                        <p class="card-text">エンジニアが仕事に使う道具一式です。</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/training.JPG"><img src="img/training.JPG" alt="ウォーターダンベル" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">ウォーターダンベル</h5>
+                                        <p class="card-text">筋トレに使うウォーターダンベルです。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="food">
+                        <div>
+                            <div class="d-flex">
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/sanzoku.JPG"><img src="img/sanzoku.JPG" alt="山賊焼き" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">山賊焼き</h5>
+                                        <p class="card-text">山口県岩国市の山賊の名物「山賊焼き」</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/monjayaki.JPG"><img src="img/monjayaki.JPG" alt="山賊焼き" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">もんじゃ焼き</h5>
+                                        <p class="card-text">東京下町の名物「もんじゃ焼き」</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="animal">
+                        <div>
+                            <div class="card-colums">
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/seal.JPG"><img src="img/seal.JPG" alt="アザラシ" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">アザラシ</h5>
+                                        <p class="card-text">兵庫県「須磨海浜水族園」のアザラシ</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/shark.JPG"><img src="img/shark.JPG" alt="ヨシキリザメ" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">ヨシキリザメ</h5>
+                                        <p class="card-text">宮城県「仙台うみの杜水族館」にいるヨシキリザメ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="view">
+                        <div>
+                            <div class="d-flex">
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/KatazoeBeach.JPG"><img src="img/KatazoeBeach.JPG" alt="片添ヶ浜" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">片添ヶ浜</h5>
+                                        <p class="card-text">山口県周防大島の「片添ヶ浜」</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/KintaiBridge.JPG"><img src="img/KintaiBridge.JPG" alt="錦帯橋" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">錦帯橋</h5>
+                                        <p class="card-text">山口県「錦帯橋」</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/chidorigabuchi_sakura.JPG"><img src="img/chidorigabuchi_sakura.JPG" alt="錦帯橋" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">千鳥ヶ淵の桜</h5>
+                                        <p class="card-text">東京都「千鳥ヶ淵」から見える桜</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="event">
+                        <div>
+                            <div class="card-colums">
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/octoberFest.JPG"><img src="img/octoberFest.JPG" alt="オクトーバーフェスト" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">オクトーバーフェスト</h5>
+                                        <p class="card-text">2019年オクトーバーフェスト</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <figure>
+                                        <a href="img/octoberFood.JPG"><img src="img/octoberFood.JPG" alt="オクトーバーフェストの料理" class="w-100"></a>
+                                    </figure>
+                                    <div class="card-body">
+                                        <h5 class="card-title">オクトーバーフェストの料理</h5>
+                                        <p class="card-text">オクトーバーフェストの料理<br>ビールと串焼きにした肉とムール貝</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-primary">
+            <p class="mb-0 p-sm-3">Copyright &copy; 2021 Umebo Inc. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
